@@ -23,3 +23,13 @@ This project involves classifying Iris flower species (setosa, versicolor, virgi
    ```bash
    git clone <repository-url>
    cd iris_classification
+
+### Training the Model
+
+To train the model, run:
+
+Copy code
+```bash
+python scripts/train.py
+
+The trained model will be saved as models/iris_model.pkl.
